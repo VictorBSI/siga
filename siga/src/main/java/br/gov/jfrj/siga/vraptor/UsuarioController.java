@@ -18,8 +18,8 @@ import br.gov.jfrj.siga.cp.bl.Cp;
 import br.gov.jfrj.siga.dp.CpOrgaoUsuario;
 import br.gov.jfrj.siga.dp.DpPessoa;
 import br.gov.jfrj.siga.dp.dao.CpDao;
+import br.gov.jfrj.siga.gi.integracao.IntegracaoLdapViaWebService;
 import br.gov.jfrj.siga.integracao.ldap.IntegracaoLdap;
-import br.gov.jfrj.siga.integracao.ldap.IntegracaoLdapViaWebService;
 
 @Resource
 public class UsuarioController extends SigaController {
