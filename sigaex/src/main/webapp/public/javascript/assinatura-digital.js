@@ -637,9 +637,11 @@ var providerPassword = {
 							},
 							"Cancelar" : function() {
 								$(this).dialog('destroy').remove();
+								window.location.reload(true);
 							}
 						},
 						close : function() {
+							window.location.reload(true);
 						}
 					});
 			$(document).delegate('.ui-dialog', 'keyup', function(e) {
